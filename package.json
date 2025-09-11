@@ -1,17 +1,43 @@
 {
   "name": "create-across-app",
   "version": "0.1.0",
-  "description": "Scaffold an Across-Protocol-enabled web app",
-  "type": "module",
+  "description": "Scaffold an Across-enabled Next.js app (RainbowKit, wagmi, Tailwind, Across SDK)",
   "bin": {
     "create-across-app": "./cli.js"
   },
-  "files": ["cli.js", "templates"],
+  "type": "module",
+  "files": [
+    "cli.js",
+    "templates"
+  ],
+  "keywords": [
+    "create",
+    "scaffold",
+    "across",
+    "nextjs",
+    "wagmi",
+    "rainbowkit",
+    "tailwind",
+    "starter"
+  ],
   "license": "MIT",
-  "keywords": ["create", "scaffold", "across protocol", "bridge", "starter"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maykelxyz/create-across-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maykelxyz/create-across-app/issues"
+  },
+  "homepage": "https://github.com/maykelxyz/create-across-app#readme",
+  "scripts": {
+    "prepublishOnly": "npm test && npm run lint || true"
+  },
   "dependencies": {
     "detect-package-manager": "^3.0.1",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
