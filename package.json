@@ -1,0 +1,17 @@
+{
+  "name": "create-across-app",
+  "version": "0.1.0",
+  "description": "Scaffold an Across-Protocol-enabled web app",
+  "type": "module",
+  "bin": {
+    "create-across-app": "./cli.js"
+  },
+  "files": ["cli.js", "templates"],
+  "license": "MIT",
+  "keywords": ["create", "scaffold", "across protocol", "bridge", "starter"],
+  "dependencies": {
+    "detect-package-manager": "^3.0.1",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}
