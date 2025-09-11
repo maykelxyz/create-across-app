@@ -3,7 +3,9 @@
 Scaffold an **Across-enabled Next.js app** in seconds ⚡  
 Includes [Across App SDK](https://github.com/across-protocol/app-sdk), [wagmi](https://wagmi.sh/), [RainbowKit](https://www.rainbowkit.com/), and [TailwindCSS](https://tailwindcss.com/).
 
----
+
+<img width="1354" height="892" alt="image" src="https://github.com/user-attachments/assets/170e6304-2ebe-4441-8e99-b0ecd949b9aa" />
+
 
 ## Quickstart
 
