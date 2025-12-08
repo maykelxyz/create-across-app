@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/maykelxyz/create-across-app#readme",
   "dependencies": {
+    "@across-protocol/app-sdk": "^0.4.4",
     "detect-package-manager": "^3.0.1",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
