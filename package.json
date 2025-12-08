@@ -1,6 +1,6 @@
 {
   "name": "create-across-app",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Scaffold an Across-enabled Next.js app (RainbowKit, wagmi, Tailwind, Across SDK).",
   "bin": {
     "create-across-app": "./cli.js"
